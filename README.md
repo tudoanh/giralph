@@ -1,6 +1,10 @@
+<p align="center">
+  <img src="giraph_cover.jpg" alt="Giralph CLI" width="600">
+</p>
+
 # giralph
 
-Open source ralph loop — multi-agent orchestrator with debate and Telegram support.
+Open source ralph loop — autonomous multi-agent orchestrator with debate and Telegram support.
 
 Inspired by [Ralph](https://ghuntley.com/ralph/) and [Cook](https://rjcorwin.github.io/cook/).
 
