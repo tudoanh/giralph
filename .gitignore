@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+dist/
+*.egg-info/
+.giralph_done
+HISTORY.md
+MEMORY.md
+PLAN.md
+PROMPT.md
+.claude/

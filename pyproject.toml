@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "giralph"
+version = "0.1.0"
+description = "Open source ralph loop — multi-agent orchestrator with debate and Telegram support"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+keywords = ["ai", "agent", "ralph", "loop", "claude", "codex", "gemini", "telegram"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+
+[project.scripts]
+giralph = "giralph.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/giralph"]
